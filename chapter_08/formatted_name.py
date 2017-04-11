@@ -11,3 +11,6 @@ print(musician)
 
 musician = get_formatted_name('john', 'hooker', 'lee')
 print(musician)
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+     print(k, v)
